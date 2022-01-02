@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
@@ -20,7 +16,7 @@
   
   /* Style navigation menu links */
   .topnav a {
-    color: #4014FF;
+    color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -101,6 +97,10 @@
     }
 }
 
+
+
+
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     
@@ -109,6 +109,9 @@
         text-align: center;
     }
 }
+
+
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
