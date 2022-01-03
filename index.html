@@ -1,61 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Travis Jackson</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Travis Jackson</title>
 
 
 </head>
-<body>
+<div id="container">
+
+  <body>
 
 
-<nav>
+
+    <nav>
+      <!-- Mobile Navigation Menu -->
+      <div class="topnav">
+        <a href="#home" class="active"><img src="images/mobileLogo.png"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <!-- Navigation screen size 600px +-->
+      <div class="nav600pxPlus">
+        <img src="images/fullLogo.png">
+
+      </div>
+
+    </nav>
 
 
-<!-- Mobile Navigation Menu -->
-<div class="topnav">
-  <a href="#home" class="active"><img src="images/mobileLogo.png"></a>
-  <!-- Navigation links (hidden by default) -->
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-  </div>
-  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
+
+    <div id="mainAndSideNav">
+
+      <!-- The sidebar -->
+      <div class="sidebar">
+
+        <img id="portrait" src="images/navPortraitSmall.png">
+
+        <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
+        <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      </div>
+
+
+      <main>
+
+        <section class="spacing"> space</section>
+
+        <section id="topImage"><img src="images/fullLogo.png"></section>
+
+        <section class="spacing"> space</section>
+        <section id="aboutSec">About</section>
+        <section class="spacing"> space</section>
+        <section id="portfolio">portfolio</section>
+        <section class="spacing"> space</section>
+        <section id="contact">Contact</section>
+        <section class="spacing"> space</section>
+
+
+
+
+
+
+
+      </main>
+    </div>
+    
+    <footer>
+      testtesttest
+
+    </footer>
+
+  </body>
 </div>
-
-<!-- Navigation screen size 600px +-->
-<div class="nav600pxPlus">
-  <img src="images/fullLogo.png">
-
-</div>
-
-
-
-</nav>
-
-
-</body>
 
 <script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
   }
-}
 </script>
-</html>
 
+</html>
