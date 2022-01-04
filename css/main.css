@@ -49,7 +49,6 @@
 
 
 
-
 .sidebar {
     display: none;
 }
@@ -66,6 +65,11 @@ footer {
     display: none;
 
 }
+
+#topImageSection{
+    display: none;
+}
+
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -93,10 +97,24 @@ footer {
 
 
     .nav600pxPlus {
-
         display: block;
-        background-color: #0FBFD9;
+        display: flexbox;
+        flex-wrap: nowrap;
+    
+        background-color: #111b27;
         padding: 20px 0 20px 20px;
+    }
+
+
+
+    #linkIcons{
+        width: auto;
+        height: auto;
+        flex-wrap: nowrap;
+        justify-content: center;
+        float: right;
+        margin: 10px;
+        margin-right: 20px;
 
     }
 
@@ -107,16 +125,19 @@ footer {
         display: flex;
         height: fit-content;
         flex-wrap: nowrap;
+                background-image: url("../images/mainBackground.jpg");
+        background-size: contain;
     }
 
 
     main {
 
         width: 100%;
-
+        column-gap: 0px;
         display: flex;
         flex-direction: column;
         align-content: center;
+
 
     }
 
@@ -128,9 +149,10 @@ footer {
         width: 18%;
         min-width: fit-content;
         left: 0;
-        background-color: #111;
+        background-color:#312b35;
         overflow-x: hidden;
         padding-top: 16px;
+        opacity: 0.6;
     }
 
     /* Style sidebar links */
@@ -140,54 +162,63 @@ footer {
         font-size: 20px;
         color: #818181;
         display: block;
+        opacity: 1;
     }
 
     /* Style links on mouse-over */
     .sidebar a:hover {
         color: #f1f1f1;
+        opacity: 1;
     }
 
     /* Style the main content */
 
 
-    #aboutSec {
-        height: 20%;
 
+    .spacing {
+
+        min-height: 5vh;
+
+    }
+
+
+    #aboutSec {
+        min-height: 20vh;
+        background-color: beige;
+        
 
     }
 
 
     #portfolio {
-        height: 20%;
-
+        min-height: 20vh;
+        background-color: beige;
+        
     }
 
     #contact {
 
-        height: 20%;
-
-    }
-
-    #topImage {
-
-        margin: 20px;
-
-    }
-
-    #mainImage {
-
-        height: 20%;
-
-    }
-
-    .spacing {
-        background-color: grey;
-        height: 5%;
-
+        min-height: 20vh;
+        background-color: beige;
+        
     }
 
 
+    #topImageSection {
+        display: block;
+        max-height: 585px;
+        margin: 0;
+        height: auto;
 
+    }
+
+    #mainImage{
+
+        max-width: 100%;
+        height: 100%;
+        min-width: 100%
+
+    }
 
 
 
