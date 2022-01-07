@@ -4,6 +4,10 @@
     margin-right: auto;
 }
 
+i {
+
+    color: white;
+}
 
 /* Style the navigation menu */
 .topnav {
@@ -55,7 +59,7 @@
 
 footer {
     align-content: center;
-    background-color: aqua;
+    background-color: #111b27;
     height: 30px;
 
 }
@@ -66,7 +70,7 @@ footer {
 
 }
 
-#topImageSection{
+#topImageSection {
     display: none;
 }
 
@@ -75,16 +79,11 @@ footer {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-    #portrait {
-        margin-left: 15px;
-        padding-right: 15px;
-
-    }
 
     footer {
         align-content: center;
-        background-color: aqua;
-        height: 50px;
+        background-color: #111b27;
+        height: 10vh;
     }
 
     .topnav {
@@ -100,14 +99,15 @@ footer {
         display: block;
         display: flexbox;
         flex-wrap: nowrap;
-    
+
         background-color: #111b27;
         padding: 20px 0 20px 20px;
+        height: 15vh;
     }
 
 
 
-    #linkIcons{
+    #linkIcons {
         width: auto;
         height: auto;
         flex-wrap: nowrap;
@@ -125,9 +125,19 @@ footer {
         display: flex;
         height: fit-content;
         flex-wrap: nowrap;
-                background-image: url("../images/mainBackground.jpg");
+        background-image: url("../images/mainBackground.jpg");
         background-size: contain;
+
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+
+
+
 
 
     main {
@@ -137,38 +147,46 @@ footer {
         display: flex;
         flex-direction: column;
         align-content: center;
-
-
     }
+
+
 
 
 
     /* Style the sidebar - fixed full height */
     .sidebar {
         float: left;
-        width: 18%;
-        min-width: fit-content;
+        width: 19vw;
+        min-width: 110px;
         left: 0;
-        background-color:#312b35;
+        background-color: #312b35;
         overflow-x: hidden;
         padding-top: 16px;
-        opacity: 0.6;
+        opacity: 0.8;
+    }
+
+    
+    #portrait {
+
+        max-width: 90%;
+        height: auto;
+        padding-left: 5px;
+      
     }
 
     /* Style sidebar links */
     .sidebar a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
-        font-size: 20px;
-        color: #818181;
+        font-size: 1em;
+        color: white;
         display: block;
         opacity: 1;
     }
 
     /* Style links on mouse-over */
     .sidebar a:hover {
-        color: #f1f1f1;
-        opacity: 1;
+        color: grey;
     }
 
     /* Style the main content */
@@ -183,24 +201,34 @@ footer {
 
 
     #aboutSec {
-        min-height: 20vh;
-        background-color: beige;
-        
+        min-height: 40vh;
+        background-color: #312b35;
+        opacity: .7;
+
+        margin-left: auto;
+        margin-right: auto;
+        min-width:90%
 
     }
 
 
     #portfolio {
-        min-height: 20vh;
-        background-color: beige;
-        
+        min-height: 40vh;
+        background-color: #312b35;
+        opacity: .7;
+        margin-left: auto;
+        margin-right: auto;
+        min-width:90%
     }
 
     #contact {
 
-        min-height: 20vh;
-        background-color: beige;
-        
+        min-height: 40vh;
+        background-color: #312b35;
+        opacity: .7;
+        margin-left: auto;
+        margin-right: auto;
+        min-width:90%
     }
 
 
@@ -212,17 +240,12 @@ footer {
 
     }
 
-    #mainImage{
+    #mainImage {
 
         max-width: 100%;
         height: 100%;
         min-width: 100%
-
     }
-
-
-
-
 
 
 
@@ -232,6 +255,16 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+
+    .sidebar a {
+
+        font-size: 1.2em;
+
+    }
+
+
+
 
 
     h1 {
@@ -263,4 +296,8 @@ footer {
     h1 {
         text-align: center;
     }
+
+
+
+
 }
