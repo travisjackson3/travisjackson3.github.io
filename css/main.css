@@ -1,3 +1,8 @@
+body {
+    font-size: .9em;
+}
+
+
 #container {
     max-width: 1024px;
     margin-left: auto;
@@ -5,7 +10,6 @@
 }
 
 i {
-
     color: white;
 }
 
@@ -47,43 +51,111 @@ i {
 
 /* Style the active link (or home/logo) */
 .active {
-    background-color: #0FBFD9;
+    background-color: #111b27;    
     color: white;
 }
-
-
 
 .sidebar {
     display: none;
 }
 
-footer {
-    align-content: center;
-    background-color: #111b27;
-    height: 30px;
 
-}
 
 .nav600pxPlus {
-
     display: none;
-
 }
+
+main {
+
+    display: flex;
+    flex-direction: column;
+
+    height: fit-content;
+    flex-wrap: nowrap;
+    background-image: url("../images/mainBackground.jpg");
+    background-size: contain;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 #topImageSection {
-    display: none;
+    display: flex;
+    justify-content: center;
+    min-height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90%;
+
+    align-items: center;
+    justify-content: flex-start;
 }
+
+#mainImage {
+    width: 100%;
+    height: 100%;
+}
+
+.spacing {
+    min-height: 2vh;
+}
+
+
+.sectionBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20vh;
+    background-color: #312b35;
+    opacity: .9;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90%;
+    border: 2px solid white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+footer {
+    display: flex;
+    align-content: center;
+    background-color: #111b27;
+    height: 70px;
+    font-size: .8em;
+    color: white;
+}
+
+#linkIcons {
+    width: auto;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-
-    footer {
-        align-content: center;
+    .nav600pxPlus {
+        display: block;
+        display: flexbox;
+        flex-wrap: nowrap;
         background-color: #111b27;
-        height: 10vh;
+        padding: 20px 0 20px 20px;
+        height: 15vh;
     }
 
     .topnav {
@@ -94,33 +166,7 @@ footer {
         display: block;
     }
 
-
-    .nav600pxPlus {
-        display: block;
-        display: flexbox;
-        flex-wrap: nowrap;
-
-        background-color: #111b27;
-        padding: 20px 0 20px 20px;
-        height: 15vh;
-    }
-
-
-
-    #linkIcons {
-        width: auto;
-        height: auto;
-        flex-wrap: nowrap;
-        justify-content: center;
-        float: right;
-        margin: 10px;
-        margin-right: 20px;
-
-    }
-
-
     #mainAndSideNav {
-
         min-height: 90vh;
         display: flex;
         height: fit-content;
@@ -128,20 +174,13 @@ footer {
         background-image: url("../images/mainBackground.jpg");
         background-size: contain;
 
-
-        /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-
-
-
-
     main {
-
         width: 100%;
         column-gap: 0px;
         display: flex;
@@ -150,29 +189,25 @@ footer {
     }
 
 
-
-
-
     /* Style the sidebar - fixed full height */
     .sidebar {
         float: left;
         width: 19vw;
         min-width: 110px;
-        max-width: 165px ;
+        max-width: 165px;
         left: 0;
-        background-color: #312b35;
+        background-color: #262129;
         overflow-x: hidden;
         padding-top: 16px;
         opacity: 0.8;
     }
 
-    
+
     #portrait {
 
         max-width: 90%;
         height: auto;
         padding-left: 5px;
-      
     }
 
     /* Style sidebar links */
@@ -190,66 +225,45 @@ footer {
         color: grey;
     }
 
-    /* Style the main content */
-
-
 
     .spacing {
-
         min-height: 5vh;
-
     }
-
-
-    #aboutSec {
-        min-height: 40vh;
-        background-color: #312b35;
-        opacity: .7;
-
-        margin-left: auto;
-        margin-right: auto;
-        min-width:90%
-
-    }
-
-
-    #portfolio {
-        min-height: 40vh;
-        background-color: #312b35;
-        opacity: .7;
-        margin-left: auto;
-        margin-right: auto;
-        min-width:90%
-    }
-
-    #contact {
-
-        min-height: 40vh;
-        background-color: #312b35;
-        opacity: .7;
-        margin-left: auto;
-        margin-right: auto;
-        min-width:90%
-    }
-
 
     #topImageSection {
         display: block;
         max-height: 585px;
         margin: 0;
         height: auto;
-
     }
 
     #mainImage {
-
         max-width: 100%;
         height: 100%;
         min-width: 100%
     }
 
+    footer {
+        
+        justify-content: center;
+        background-color: #111b27;
+        height: 10vh;
+    }
 
+    footer>#linkIcons {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        margin-right: 20px;
+    }
 
+    #linkIcons {
+        width: auto;
+        height: auto;
+        justify-content: center;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
 
 
 }
@@ -263,8 +277,6 @@ footer {
         font-size: 1.2em;
 
     }
-
-
 
 
 
