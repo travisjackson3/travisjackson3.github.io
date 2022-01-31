@@ -82,6 +82,11 @@ main {
 }
 
 
+a {
+
+    color: white;
+
+}
 
 
 #topImageSection {
@@ -102,7 +107,7 @@ main {
 }
 
 .spacing {
-    min-height: 2vh;
+    min-height: 7vh;
 }
 
 
@@ -121,6 +126,7 @@ main {
     border-radius: 15px;
     align-items: center;
     justify-content: flex-start;
+    max-width: 90%;
 
 }
 
@@ -143,6 +149,14 @@ footer {
     margin-right: 10px;
 }
 
+p{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+}
 
 
 
@@ -227,7 +241,7 @@ footer {
 
 
     .spacing {
-        min-height: 5vh;
+        min-height: 20vh;
     }
 
     #topImageSection {
@@ -265,6 +279,12 @@ footer {
         margin-right: 10px;
     }
 
+    p{
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
 
 }
 
