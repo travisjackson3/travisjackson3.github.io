@@ -1,5 +1,6 @@
 body {
     font-size: .9em;
+    background-color: #40404b;
 }
 
 
@@ -130,6 +131,12 @@ a {
 
 }
 
+.sectionBox h1{
+
+    margin-bottom: 15px;
+
+}
+
 footer {
     display: flex;
     align-content: center;
@@ -158,6 +165,41 @@ p{
     max-width: 90%;
 }
 
+
+.subContent
+{
+
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+margin-bottom: 10px;
+
+}
+
+.subContent h3{
+    margin-left: auto;
+    margin-right: auto;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subContent p{
+    max-width: 85%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.subContent a{
+
+ margin-bottom: 10px;
+ margin-left: auto;
+ margin-right: auto; 
+ color:darkgray;
+
+
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -290,7 +332,9 @@ p{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+    body{
+        font-size: 1.3em;
+    }
 
     .sidebar a {
 
