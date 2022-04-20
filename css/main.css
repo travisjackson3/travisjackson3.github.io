@@ -149,11 +149,10 @@ footer {
 #linkIcons {
     width: auto;
     height: auto;
-    flex-wrap: nowrap;
-    justify-content: center;
+
+
     float: right;
-    margin-top: 10px;
-    margin-right: 10px;
+
 }
 
 p{
@@ -207,11 +206,11 @@ margin-bottom: 10px;
 
     .nav600pxPlus {
         display: block;
-        display: flexbox;
+       
         flex-wrap: nowrap;
         background-color: #111b27;
         padding: 20px 0 20px 20px;
-        height: 15vh;
+
     }
 
     .topnav {
@@ -224,7 +223,7 @@ margin-bottom: 10px;
 
     #mainAndSideNav {
         min-height: 90vh;
-        display: flex;
+
         height: fit-content;
         flex-wrap: nowrap;
         background-image: url("../images/mainBackground.jpg");
@@ -244,24 +243,18 @@ margin-bottom: 10px;
         align-content: center;
     }
 
-
-    /* Style the sidebar - fixed full height */
     .sidebar {
-        float: left;
-        width: 19vw;
-        min-width: 110px;
-        max-width: 165px;
-        left: 0;
+        
+        width: 100%;
         background-color: #262129;
-        overflow-x: hidden;
+        padding-bottom: 16px;
         padding-top: 16px;
-        opacity: 0.8;
+        
+     
     }
 
 
     #portrait {
-
-        max-width: 90%;
         height: auto;
         padding-left: 5px;
     }
@@ -272,8 +265,9 @@ margin-bottom: 10px;
         text-decoration: none;
         font-size: 1em;
         color: white;
-        display: block;
-        opacity: 1;
+
+      
+      
     }
 
     /* Style links on mouse-over */
@@ -283,11 +277,11 @@ margin-bottom: 10px;
 
 
     .spacing {
-        min-height: 20vh;
+        min-height: 8vh;
     }
 
     #topImageSection {
-        display: block;
+
         max-height: 585px;
         margin: 0;
         height: auto;
@@ -303,7 +297,7 @@ margin-bottom: 10px;
         
         justify-content: center;
         background-color: #111b27;
-        height: 10vh;
+
     }
 
     footer>#linkIcons {
@@ -315,10 +309,8 @@ margin-bottom: 10px;
 
     #linkIcons {
         width: auto;
-        height: auto;
-        justify-content: center;
-        margin-top: 10px;
-        margin-right: 10px;
+        height: auto;       
+
     }
 
     p{
@@ -368,7 +360,11 @@ margin-bottom: 10px;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-
+    #container {
+        max-width: 1350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     h1 {
         text-align: center;
