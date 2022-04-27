@@ -1,9 +1,17 @@
-const App = {
-    data () {
-        return {
-            message: 'Hello world!'
-        }
-    }
-}
+Vue.createApp({
 
-Vue.createApp(App).mount('#app')
+    data() {
+      return {
+
+        count: 0
+      }
+    },
+    methods: {
+        increment() {
+            this.count++
+          }
+  
+    }
+  
+  }).mount('#app')
+  

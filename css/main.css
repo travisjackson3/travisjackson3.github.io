@@ -117,8 +117,11 @@ a {
     flex-direction: column;
     justify-content: center;
     min-height: 20vh;
-    background-color: #312b35;
+   /* background-color: #312b35;
     opacity: .9;
+   */
+    background:rgba(49, 43, 53, 0.8) ;
+    
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -168,11 +171,14 @@ p{
 .subContent
 {
 
+    border: black solid 2px;
 margin-left: auto;
 margin-right: auto;
 display: flex;
-flex-direction: column;
+flex-direction: row;
 margin-bottom: 10px;
+justify-content: flex-start;
+align-content: flex-start;
 
 }
 
@@ -184,7 +190,7 @@ margin-bottom: 10px;
 }
 
 .subContent p{
-    max-width: 85%;
+    max-width: 40%;
     margin-top: 5px;
     margin-bottom: 5px;
     
@@ -197,6 +203,14 @@ margin-bottom: 10px;
  margin-right: auto; 
  color:darkgray;
 
+
+}
+
+
+.projectImg{
+
+    max-width: 300px;
+    max-height: 300px;
 
 }
 

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta name="description" content="Web Development Portfolio for Travis Jackson">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <script src="https://kit.fontawesome.com/8b5837b115.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,8 +17,7 @@
 </head>
 <div id="container">
 
-  <body>
-
+  <body id ="app">
 
 
     <nav>
@@ -94,30 +93,70 @@
 
         <section class="spacing"></section>
 
+
         <section class="sectionBox" id="portfolio">
 
           <h1>Portfolio</h1>
-          <div class="subContent">
-          <h3>Django Project:</h3>
-          <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server which provides user account functionality.</p>
-          <a href="https://travishjackson.com/enjoy">Enjoy: Coloring Fun</a>
-          <a href="https://github.com/travisjackson3/capstone.git">--GitHub code</a>
-            </div>
-          <div class="subContent">
-          <h3>Python Project:</h3>
-          <p>Encrypts selected items choosen from an API. </p>
-          <a href="https://github.com/PdxCodeGuild/class_tardigrade/blob/main/code/travis/Python/PythonCapstone.py">GitHub
-            code
-            Capstone</a>
+
+
+          <div class="subContent">            
+
+              <h3>Django Project:</h3>
+                <img class="projectImg" src="images/enjoyPreview.jpg"></img>
+                <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server which provides user account functionality.</p>
+
+                <h4>Technogy Used</h4>
+                <ul>
+                  <li>Django Framework</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                  <li>MySQL</li>
+                  <li>Fully deployed using CPanel hosting control</li>    
+                  
+                </ul>
+                <h4>Features</h4>
+                <ul>
+                  <li>User functionality</li>
+                  <li>Save images</li>
+                  <li>Login</li>
+                  <li>Editable images</li>
+                  <li>Download</li>
+                               
+                  
+                </ul>
+
+                <button href="https://travishjackson.com/enjoy">Live</button>
+                <button href="https://github.com/travisjackson3/capstone.git" >GitHub Code</button>
+
+
+          
+          </div>
+
+       <!--   <div class="subContent">
+            <h3>Python Project:</h3>
+            <p>Encrypts selected items choosen from an API. </p>
+            <a href="https://github.com/PdxCodeGuild/class_tardigrade/blob/main/code/travis/Python/PythonCapstone.py">GitHub
+              code
+              Capstone</a>
           </div>
 
           <div class="subContent">
-          <h3>Wordpress:</h3>
-          <p>A small business website for a photographer:</p>
-          <a href="https://sdayphotos.travishjackson.com/">SDay Photography</a>
-            </div>
-
+            <h3>Wordpress:</h3>
+            <p>A small business website for a photographer:</p>
+            <a href="https://sdayphotos.travishjackson.com/">SDay Photography</a>
+          </div>
+        -->
         </section>
+
+
+
+
+
+
+
+
+
         <section class="spacing"></section>
 
 
@@ -152,6 +191,11 @@
 
   </body>
 </div>
+
+
+<script src="https://unpkg.com/vue@next"></script>
+
+<script src="js/script.js"></script>
 
 <script>
   function myFunction() {
