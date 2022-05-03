@@ -5,7 +5,7 @@ body {
 
 
 #container {
-    max-width: 1024px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -70,9 +70,11 @@ main {
 
     display: flex;
     flex-direction: column;
-
+    max-width: 1350px;;
     height: fit-content;
     flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
     background-image: url("../images/mainBackground.jpg");
     background-size: contain;
 
@@ -80,6 +82,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 
@@ -232,7 +235,7 @@ p {
 
     #mainAndSideNav {
         min-height: 90vh;
-
+        
         height: fit-content;
         flex-wrap: nowrap;
         background-image: url("../images/mainBackground.jpg");
@@ -242,6 +245,8 @@ p {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+
+        
     }
 
     main {
@@ -432,7 +437,7 @@ p {
 @media only screen and (min-width: 1200px) {
 
     #container {
-        max-width: 1350px;
+        
         margin-left: auto;
         margin-right: auto;
     }
