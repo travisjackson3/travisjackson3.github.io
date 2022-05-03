@@ -5,64 +5,64 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta name="description" content="Web Development Portfolio for Travis Jackson">
+  <meta name="description" content="Web Development Portfolio for Travis Jackson">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <script src="https://kit.fontawesome.com/8b5837b115.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <link href="files/fontAwesome/css/fontawesome.css" rel="stylesheet">
+  <link href="files/fontAwesome/css/brands.css" rel="stylesheet">
+  <link href="files/fontAwesome/css/solid.css" rel="stylesheet">
+ 
   <title>Travis Jackson</title>
 
 
 </head>
-<body id ="app">
-<div id="container">
 
-  
+<body id="app">
+  <div id="container">
 
+    <!-- Mobile Navigation Menu -->
+    <nav class="topnav">
+      <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="#container">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </nav>
 
-    
-      <!-- Mobile Navigation Menu -->
-      <nav class="topnav">
-       <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-          <a href="#container">Home</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </nav>
-
-      <!-- Navigation screen size 600px+ -->
-      <nav class="nav600pxPlus">
-        <img src="images/fullLogo.png" alt="Main Logo: Travis Jackson">
-      </nav>
+    <!-- Navigation screen size 600px+ -->
+    <nav class="nav600pxPlus">
+      <img src="images/fullLogo.png" alt="Main Logo: Travis Jackson">
+    </nav>
 
 
 
     <nav class="fullNav">
       <a href="#container"><i class="fa fa-fw fa-house"></i> Home</a>
-        <a href="#portfolio"><i class="fa fa-fw fa-project-diagram"></i> Portfolio</a>
-        <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
-        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-        <div id="linkIcons">
-      
-          <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa fa-fw fa-linkedin fa-lg"></i></a>
-          <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-lg"></i></a>
-        </div>
-      </nav>
+      <a href="#portfolio"><i class="fa fa-fw fa-project-diagram"></i> Portfolio</a>
+      <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
+      <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      <div id="linkIcons">
 
-    <div id="content">   
+        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/travisjackson3?tab=repositories"><i class="fa-brands fa-github-square fa-lg"></i></a>
+      </div>
+    </nav>
+
+    <div id="content">
 
 
       <main>
 
-        <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png" alt="Image of the Earth and Moon"> </section>
+        <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png"
+            alt="Image of the Earth and Moon"> </section>
         <section class="spacing"></section>
         <section class="sectionBox" id="about">
 
@@ -70,69 +70,68 @@
           <h1>About</h1>
 
           <div class="subContent">
-          <p>
+            <p>
 
-            Former military member with discipline and drive. Transitioning into a career in web development. Academic
-            experience with computer programming from a full stack web development bootcamp and an AAS in Computer Information
-            Systems. A Navy veteran with experience as an electronics technician.</p>
+              Former military member with discipline and drive. Transitioning into a career in web development. Academic
+              experience with computer programming from a full stack web development bootcamp and an AAS in Computer
+              Information
+              Systems. A Navy veteran with experience as an electronics technician.</p>
           </div>
           <div class="subContent">
-          <h3>Resume</h3>
-          <a href="https://my.indeed.com/p/travisj-lllsra4">Indeed Resume</a>
+            <h3>Resume</h3>
+            <a href="https://my.indeed.com/p/travisj-lllsra4">Indeed Resume</a>
 
-          
+
           </div>
         </section>
-
-
-
         <section class="spacing"></section>
-
 
         <section class="sectionBox" id="portfolio">
 
           <h1>Portfolio</h1>
 
 
-          <div class="subPortfolio">            
+          <div class="subPortfolio">
 
-              <div>  <h3>Enjoy: Colorful Fun</h3>
-                <img class="projectImg" src="images/enjoyPreview.jpg"></img>
-              </div>
+            <div>
+              <h3>Enjoy: Colorful Fun</h3>
+              <img class="projectImg" src="images/enjoyPreview.jpg"></img>
+            </div>
 
-                <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server which provides user account functionality.</p>
-              <div>
-                <h4>Technogy Used</h4>
-                <ul>
-                  <li>Django Framework</li>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>MySQL</li>
-                  <li>CPanel hosting control</li>    
-                  
-                </ul>
-              </div>
-              <div>
-                <h4>Features</h4>
-                <ul>
-                  <li>User functionality</li>
-                  <li>Save images</li>
-                  <li>Login</li>
-                  <li>Editable images</li>
-                  <li>Download</li>                             
-                  
-                </ul>
+            <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server
+              which provides user account functionality.</p>
+            <div>
+              <h4>Technogy Used</h4>
+              <ul>
+                <li>Django Framework</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+                <li>CPanel hosting control</li>
 
-                </div>
-                <button href="https://travishjackson.com/enjoy">Live</button>
-                <button href="https://github.com/travisjackson3/capstone.git" >GitHub Code</button>
+              </ul>
+            </div>
+            <div>
+              <h4>Features</h4>
+              <ul>
+                <li>User functionality</li>
+                <li>Save images</li>
+                <li>Login</li>
+                <li>Editable images</li>
+                <li>Download</li>
+
+              </ul>
+
+            </div>
+            <button href="https://travishjackson.com/enjoy">Live</button>
+            <button href="https://github.com/travisjackson3/capstone.git">GitHub Code</button>
 
 
-          
+
           </div>
 
-       <!--   <div class="subContent">
+          <!--   <div class="subContent">
             <h3>Python Project:</h3>
             <p>Encrypts selected items choosen from an API. </p>
             <a href="https://github.com/PdxCodeGuild/class_tardigrade/blob/main/code/travis/Python/PythonCapstone.py">GitHub
@@ -150,12 +149,6 @@
 
 
 
-
-
-
-
-
-
         <section class="spacing"></section>
 
 
@@ -164,12 +157,12 @@
           <h1>Contact</h1>
           <div class="subContent">
             <h3>Email</h3>
-         
-            
+
+
             <a href="mailto: @travisjackson3@gmail.com">travisjackson3@gmail.com</a>
             <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/">LinkedIn</a>
 
-        </div>
+          </div>
         </section>
 
         <section class="spacing"></section>
@@ -182,19 +175,19 @@
       <div id="linkIcons">
 
         <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-lg"></i></a>
-        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa fa-fw fa-linkedin fa-lg"></i></a>        
+        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg"></i></a>
 
       </div>
       <p> &copy Travis Jackson</p>
     </footer>
 
-  
-</div>
+
+  </div>
 
 
-<script src="https://unpkg.com/vue@next"></script>
+  <script src="https://unpkg.com/vue@next"></script>
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 
