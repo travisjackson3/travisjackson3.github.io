@@ -21,12 +21,13 @@
   
 
 
-    <nav>
+    
       <!-- Mobile Navigation Menu -->
-      <div class="topnav">
+      <nav class="topnav">
        <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
+          <a href="#container">Home</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
@@ -35,35 +36,28 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
+      </nav>
 
       <!-- Navigation screen size 600px+ -->
-      <div class="nav600pxPlus">
+      <nav class="nav600pxPlus">
         <img src="images/fullLogo.png" alt="Main Logo: Travis Jackson">
+      </nav>
 
 
-      </div>
 
-    </nav>
-
-    <div class="sidebar">
-
-      <!--  <img id="portrait" src="images/navPortraitSmall.png" alt="Portrait"> -->
-
-        
+    <nav class="fullNav">
+      <a href="#container"><i class="fa fa-fw fa-house"></i> Home</a>
         <a href="#portfolio"><i class="fa fa-fw fa-project-diagram"></i> Portfolio</a>
-        <a href="#about"><i class="fa fa-fw fa-user"></i>About</a>
-        <a href="#contact"><i class="fa fa-fw fa-envelope"></i>Contact</a>
+        <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
         <div id="linkIcons">
       
           <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa fa-fw fa-linkedin fa-lg"></i></a>
           <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-lg"></i></a>
         </div>
-      </div>
-    <div id="mainAndSideNav">
+      </nav>
 
-      <!-- The sidebar -->
-     
+    <div id="content">   
 
 
       <main>
@@ -196,21 +190,12 @@
 
   
 </div>
-</body>
+
 
 <script src="https://unpkg.com/vue@next"></script>
 
 <script src="js/script.js"></script>
+</body>
 
-<!-- <script>
-  function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-  }
-</script>
--->
+
 </html>

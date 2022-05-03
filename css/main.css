@@ -1,7 +1,9 @@
 body {
     font-size: .9em;
     background-color: #40404b;
+    font-family: 'Courier New', Courier, monospace
 }
+
 
 
 #container {
@@ -17,7 +19,7 @@ i {
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #111b27;
     position: relative;
 }
 
@@ -56,7 +58,7 @@ i {
     color: white;
 }
 
-.sidebar {
+.fullNav {
     display: none;
 }
 
@@ -229,11 +231,11 @@ p {
         display: none;
     }
 
-    .sidebar {
+    .fullNav {
         display: block;
     }
 
-    #mainAndSideNav {
+    #content {
         min-height: 90vh;
         
         height: fit-content;
@@ -253,17 +255,17 @@ p {
         width: 100%;
         column-gap: 0px;
         display: flex;
-        flex-direction: column;
+        flexcon-direction: column;
         align-content: center;
     }
 
-    .sidebar {
+    .fullNav {
 
         width: 100%;
         background-color: #262129;
         padding-bottom: 16px;
         padding-top: 16px;
-
+        
 
     }
 
@@ -273,8 +275,8 @@ p {
         padding-left: 5px;
     }
 
-    /* Style sidebar links */
-    .sidebar a {
+    /* Style fullNav links */
+    .fullNav a {
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 1em;
@@ -285,7 +287,7 @@ p {
     }
 
     /* Style links on mouse-over */
-    .sidebar a:hover {
+    .fullNav a:hover {
         color: grey;
     }
 
@@ -342,7 +344,7 @@ p {
         font-size: 1.3em;
     }
 
-    .sidebar a {
+    .fullNav a {
 
         font-size: 1.2em;
 
