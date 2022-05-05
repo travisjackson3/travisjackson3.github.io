@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Web Development Portfolio for Travis Jackson">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
@@ -58,11 +59,10 @@
 
     <div id="content">
 
-
       <main>
 
         <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png"
-            alt="Image of the Earth and Moon"> </section>
+            alt="The Earth and Moon"> </section>
         <section class="spacing"></section>
         <section class="sectionBox" id="about">
 
@@ -79,7 +79,7 @@
           </div>
           <div class="subContent">
             <h3>Resume</h3>
-            <a href="https://my.indeed.com/p/travisj-lllsra4">Indeed Resume</a>
+            <a href="https://my.indeed.com/p/travisj-lllsra4"><i class="fa-solid fa-file fa-2xl"></i></a>
 
 
           </div>
@@ -94,27 +94,29 @@
           <div class="subPortfolio">
 
             <div>
-              <h3>Enjoy: Colorful Fun</h3>
-              <img class="projectImg" src="images/enjoyPreview.jpg"></img>
+              
+              <img class="projectImg" src="images/enjoyPreview.jpg"  alt="Enjoy App preview"></img>
+              <h2>Enjoy: Colorful Fun</h2>
             </div>
-
+            <div>
             <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server
-              which provides user account functionality.</p>
+              which provides user account functionality.</p></div>
             <div>
               <h4>Technogy Used</h4>
-              <ul>
-                <li>Django Framework</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>MySQL</li>
-                <li>CPanel hosting control</li>
+              <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-d"></i></span>Django</li>
+                <li><span class="fa-li"><i class="fa-brands fa-python"></i></span>Python</li>
+                <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
+                <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
+                <li><span class="fa-li"><i class="fa-brands fa-js"></i></span>JavaScript</li>
+                <li><span class="fa-li"><i class="fa-solid fa-database"></i></span>MySQL</li>
+                <li><span class="fa-li"><i class="fa-brands fa-cpanel"></i></span>Cpanel</li>
 
               </ul>
             </div>
             <div>
               <h4>Features</h4>
-              <ul>
+              <ul class="fa-ul">
                 <li>User functionality</li>
                 <li>Save images</li>
                 <li>Login</li>
@@ -124,9 +126,10 @@
               </ul>
 
             </div>
+            <div id="portfolioBtns">
             <button href="https://travishjackson.com/enjoy">Live</button>
-            <button href="https://github.com/travisjackson3/capstone.git">GitHub Code</button>
-
+            <button href="https://github.com/travisjackson3/capstone.git">Code</button>
+            </div>
 
 
           </div>
@@ -156,11 +159,9 @@
 
           <h1>Contact</h1>
           <div class="subContent">
-            <h3>Email</h3>
 
-
-            <a href="mailto: @travisjackson3@gmail.com">travisjackson3@gmail.com</a>
-            <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/">LinkedIn</a>
+            <a href="mailto: @travisjackson3@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+            <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg fa-2xl"></i></a>
 
           </div>
         </section>
@@ -172,13 +173,14 @@
 
     <footer>
 
+
+      <p> &copy Travis Jackson</p>
       <div id="linkIcons">
 
-        <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-lg"></i></a>
-        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg"></i></a>
+        <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-xl"></i></a>
+        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-xl"></i></a>
 
       </div>
-      <p> &copy Travis Jackson</p>
     </footer>
 
 
