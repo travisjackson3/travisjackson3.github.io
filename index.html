@@ -20,8 +20,12 @@
 </head>
 
 <body id="app">
-  <div id="container">
 
+
+
+    <div id="content">
+
+      
     <!-- Mobile Navigation Menu -->
     <nav class="topnav">
       <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
@@ -57,8 +61,6 @@
       </div>
     </nav>
 
-    <div id="content">
-
       <main>
 
         <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png"
@@ -93,15 +95,15 @@
 
           <div class="subPortfolio">
 
-            <div>
+            <div id="imgTitle">
               
-              <img class="projectImg" src="images/enjoyPreview.jpg"  alt="Enjoy App preview"></img>
+              <img class="projectImg" src="images/projenjoy.jpg"  alt="Enjoy App preview"></img>
               <h2>Enjoy: Colorful Fun</h2>
             </div>
-            <div>
+            <div id="projectSummary">
             <p>An online coloring book. Run using Django Framework with vanilla JavaScript, and CSS. Uses a MySQL server
               which provides user account functionality.</p></div>
-            <div>
+            <div class="projectList">
               <h4>Technogy Used</h4>
               <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fa-solid fa-d"></i></span>Django</li>
@@ -116,7 +118,7 @@
             </div>
             <div>
               <h4>Features</h4>
-              <ul class="fa-ul">
+              <ul class="fa-ul" id="projectFeatures">
                 <li>User functionality</li>
                 <li>Save images</li>
                 <li>Login</li>
@@ -126,31 +128,47 @@
               </ul>
 
             </div>
-            <div id="portfolioBtns">
-            <button href="https://travishjackson.com/enjoy">Live</button>
-            <button href="https://github.com/travisjackson3/capstone.git">Code</button>
+            <div id="projectBtnDiv">
+            <button class="projectBtn" href="https://travishjackson.com/enjoy">Live</button>
+            <button class="projectBtn"  href="https://github.com/travisjackson3/capstone.git">Code</button>
             </div>
 
 
           </div>
 
-          <!--   <div class="subContent">
-            <h3>Python Project:</h3>
-            <p>Encrypts selected items choosen from an API. </p>
-            <a href="https://github.com/PdxCodeGuild/class_tardigrade/blob/main/code/travis/Python/PythonCapstone.py">GitHub
-              code
-              Capstone</a>
-          </div>
+   <div class="subPortfolio">
 
-          <div class="subContent">
-            <h3>Wordpress:</h3>
-            <p>A small business website for a photographer:</p>
-            <a href="https://sdayphotos.travishjackson.com/">SDay Photography</a>
-          </div>
-        -->
+    <div id="imgTitle">
+      
+      <img class="projectImg" src="images/wordpress2.jpg"  alt="Enjoy App preview"></img>
+      <h2>S. Day Photography</h2>
+    </div>
+    <div id="projectSummary">
+      <p>Small business website for a photographer. Designed to client's specifications</p></div>
+    <div class="projectList">
+      <h4>Technogy Used</h4>
+      <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fa-brands fa-wordpress"></i></i></span>Wordpress</li>
+        <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
+        <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
+
+      </ul>
+    </div>
+    <div>
+      <h4>Features</h4>
+      <ul class="fa-ul" id="projectFeatures">
+        <li>Portfolio Galleries</li>
+        <li>Package Prices</li>
+        <li>Contact Form</li>
+      </ul>
+
+    </div>
+    <div id="projectBtnDiv">
+      <button class="projectBtn" href="https://sdayphotos.travishjackson.com/">Live</button>
+  
+    </div>
+
         </section>
-
-
 
         <section class="spacing"></section>
 
@@ -169,7 +187,7 @@
         <section class="spacing"></section>
 
       </main>
-    </div>
+ 
 
     <footer>
 

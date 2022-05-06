@@ -96,16 +96,15 @@ a {
 
 }
 
-button{
-    background-color: white; /* Green */
-    border: none;
+.projectBtn{
+    background-color: white;
+
     color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
    
-    max-width: 40%;
-   
+    max-width: 40%; 
 
 
 }
@@ -222,19 +221,21 @@ p {
 
 .subPortfolio {
 
-
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    justify-content: center;
+    justify-content: flex-start;
     align-content:center;
     flex-wrap: wrap;
-    gap: 5px;
-    max-width: 90%;
-    background-color: #ddd;
-
+    gap: 0px;
+    width: 280px;
+    background-color: #4B7BA6;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 10px;
 
 }
+
 
 .subPortfolio h4{
 
@@ -242,13 +243,15 @@ p {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
  
 }
 
 .subPortfolio h2{
 
     margin-top: 10px;
-
+    margin-left: auto;
+    margin-right: auto;
  
 }
 
@@ -265,13 +268,36 @@ p {
 
 .projectImg {
 
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 100%;
+
+
 
 
 }
 
-#portfolioBtns{
+#imgTitle{
+    
+    min-width: 100%;
+    height: fit-content;
+    border-bottom: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#imgTitle h2{
+text-align: center;
+
+}
+
+#projectSummary{
+
+    min-width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+
+}
+
+#projectBtnDiv{
 
     display: flex;
     flex-direction: row;
@@ -282,22 +308,43 @@ p {
     margin-top: 10px;
 }
 
+#projectFeatures{
 
+    list-style-type: circle;
+
+
+
+}
+
+
+
+/*
+
+screen size 500px
+*/
 
 @media only screen and (min-width: 500px) {
 
     .subPortfolio {
 
         flex-direction: row;    
-    
+ 
+        margin-bottom: 10px;
+        justify-content: flex-start;
+        width: 400px;
+     
+        
+        
+        
+        
     }
 
 
-    .subPortfolio div{
+    .projectList{
 
-        max-width: 40%;
-        padding-left: 15px;
-        min-width: 40%;
+       
+        padding-left: 5px;
+        min-width: 150px;
 
     }
     #fa-ul{
@@ -305,6 +352,29 @@ p {
         margin-left: 1em;
 
     }
+
+
+    #projectBtnDiv{
+
+    min-width: 100%;
+    
+    }
+
+    .projectBtn{
+
+        min-width: 180px;
+        margin: 2px;
+    }
+
+    .projectImg {
+
+       min-width: 100%;
+        min-height: 300px;
+      
+    
+    }
+
+
 
 }
 
@@ -432,14 +502,7 @@ Small devices (portrait tablets and large phones, 600px and up)
     }
 
 
-
-
-
-    #portfolioBtns{
-      
-        min-width: 70%;
-
-    }
+ 
 
 
     
@@ -465,8 +528,17 @@ Small devices (portrait tablets and large phones, 600px and up)
 
 
 
-    .subPortfolio {
 
+        .subPortfolio {
+ 
+            padding: 15px;
+            margin-bottom: 15px;
+    
+            width: 650px;
+            
+            
+ 
+    
 
         max-width: 95%;
 
@@ -482,7 +554,6 @@ Small devices (portrait tablets and large phones, 600px and up)
     .subPortfolio p {
 
 
-        margin-bottom: 5px;
         margin-left: 10px;
         margin-right: 10px;
 
@@ -500,9 +571,8 @@ Small devices (portrait tablets and large phones, 600px and up)
     .subPortfolio > div{
 
         padding-left: 0px;
-
-        max-width: 40%;
-
+        min-width: 45%;
+        margin-bottom: 20px;
     }
 
     .subPortfolio li{
@@ -510,18 +580,6 @@ Small devices (portrait tablets and large phones, 600px and up)
         margin-left: auto;
         margin-right: auto;
     }
-
-    .projectImg {
-
-        max-width: 250px;
-        max-height: 250px;
-
-    }
-
-
-
-
-
 
 }
 
