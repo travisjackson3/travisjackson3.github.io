@@ -4,12 +4,12 @@ body {
     font-family: 'Courier New', Courier, monospace
 }
 
-ul{
+ul {
     padding: 0px;
 }
 
 #container {
-    
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -74,7 +74,8 @@ main {
 
     display: flex;
     flex-direction: column;
-    max-width: 1350px;;
+    max-width: 1350px;
+    ;
     height: fit-content;
     flex-wrap: nowrap;
     margin-left: auto;
@@ -96,15 +97,15 @@ a {
 
 }
 
-.projectBtn{
+.projectBtn {
     background-color: white;
 
     color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
-   
-    max-width: 40%; 
+
+    max-width: 40%;
 
 
 }
@@ -137,7 +138,7 @@ a {
     justify-content: center;
     min-height: 20vh;
     background-color: #312b35;
-   
+
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -168,10 +169,7 @@ footer {
 #linkIcons {
     width: auto;
     height: auto;
-
-
     float: right;
-
 }
 
 p {
@@ -225,7 +223,7 @@ p {
     flex-direction: column;
     margin-bottom: 10px;
     justify-content: flex-start;
-    align-content:center;
+    align-content: center;
     flex-wrap: wrap;
     gap: 0px;
     width: 280px;
@@ -237,26 +235,25 @@ p {
 }
 
 
-.subPortfolio h4{
+.subPortfolio h4 {
 
     margin-top: 10px;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
- 
+
 }
 
-.subPortfolio h2{
+.subPortfolio h2 {
 
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
- 
 }
 
 
-.fa-ul{
+.fa-ul {
 
     margin-top: 10px;
     margin-bottom: 0px;
@@ -270,13 +267,10 @@ p {
 
     max-width: 100%;
 
-
-
-
 }
 
-#imgTitle{
-    
+#imgTitle {
+
     min-width: 100%;
     height: fit-content;
     border-bottom: 3px solid black;
@@ -284,12 +278,12 @@ p {
     margin-right: auto;
 }
 
-#imgTitle h2{
-text-align: center;
+#imgTitle h2 {
+    text-align: center;
 
 }
 
-#projectSummary{
+#projectSummary {
 
     min-width: 100%;
     max-width: 100%;
@@ -297,22 +291,19 @@ text-align: center;
 
 }
 
-#projectBtnDiv{
+#projectBtnDiv {
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-#projectFeatures{
+#projectFeatures {
 
     list-style-type: circle;
-
-
 
 }
 
@@ -327,51 +318,45 @@ screen size 500px
 
     .subPortfolio {
 
-        flex-direction: row;    
- 
+        flex-direction: row;
         margin-bottom: 10px;
         justify-content: flex-start;
         width: 400px;
-     
-        
-        
-        
-        
+
     }
 
 
-    .projectList{
+    .projectList {
 
-       
         padding-left: 5px;
         min-width: 150px;
-
     }
-    #fa-ul{
+
+    #fa-ul {
 
         margin-left: 1em;
 
     }
 
 
-    #projectBtnDiv{
+    #projectBtnDiv {
 
-    min-width: 100%;
-    
+        min-width: 100%;
+
     }
 
-    .projectBtn{
+    .projectBtn {
 
         min-width: 180px;
         margin: 2px;
+
     }
 
     .projectImg {
 
-       min-width: 100%;
+        min-width: 100%;
         min-height: 300px;
-      
-    
+
     }
 
 
@@ -385,8 +370,8 @@ Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 600px) {
 
     .nav600pxPlus {
-        display: block;
 
+        display: block;
         flex-wrap: nowrap;
         background-color: #111b27;
         padding: 20px 0 20px 20px;
@@ -402,27 +387,28 @@ Small devices (portrait tablets and large phones, 600px and up)
     }
 
     #content {
+
         min-height: 90vh;
-        
         height: fit-content;
         flex-wrap: nowrap;
         background-image: url("../images/mainBackground.jpg");
         background-size: contain;
-
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
 
-        
+
     }
 
     main {
+
         width: 100%;
         column-gap: 0px;
         display: flex;
         flex-direction: column;
         align-content: center;
+
     }
 
     .fullNav {
@@ -431,35 +417,38 @@ Small devices (portrait tablets and large phones, 600px and up)
         background-color: #262129;
         padding-bottom: 16px;
         padding-top: 16px;
-        
 
     }
 
 
     #portrait {
-        height: auto;
+
+        height: auto;        
         padding-left: 5px;
+
     }
 
     /* Style fullNav links */
     .fullNav a {
+
         padding: 6px 8px 6px 16px;
         text-decoration: none;
         font-size: 1em;
         color: white;
 
-
-
     }
 
     /* Style links on mouse-over */
     .fullNav a:hover {
+
         color: grey;
     }
 
 
     .spacing {
+
         min-height: 8vh;
+
     }
 
     #topImageSection {
@@ -502,21 +491,24 @@ Small devices (portrait tablets and large phones, 600px and up)
     }
 
 
- 
 
 
-    
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body {
+
         font-size: 1.3em;
+        
     }
 
     .fullNav a {
 
-        font-size: 1.2em;
+        font-size: 1.1em;
+
 
     }
 
@@ -529,16 +521,16 @@ Small devices (portrait tablets and large phones, 600px and up)
 
 
 
-        .subPortfolio {
- 
-            padding: 15px;
-            margin-bottom: 15px;
-    
-            width: 650px;
-            
-            
- 
-    
+    .subPortfolio {
+
+        padding: 15px;
+        margin-bottom: 15px;
+
+        width: 650px;
+
+
+
+
 
         max-width: 95%;
 
@@ -568,17 +560,19 @@ Small devices (portrait tablets and large phones, 600px and up)
 
     }
 
-    .subPortfolio > div{
+    .subPortfolio>div {
 
         padding-left: 0px;
         min-width: 45%;
+        max-width: 45%;
         margin-bottom: 20px;
     }
 
-    .subPortfolio li{
+    .subPortfolio li {
 
         margin-left: auto;
         margin-right: auto;
+
     }
 
 }
@@ -603,7 +597,7 @@ Small devices (portrait tablets and large phones, 600px and up)
 @media only screen and (min-width: 1200px) {
 
     #container {
-        
+
         margin-left: auto;
         margin-right: auto;
     }

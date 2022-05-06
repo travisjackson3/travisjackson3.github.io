@@ -13,200 +13,197 @@
   <link href="files/fontAwesome/css/fontawesome.css" rel="stylesheet">
   <link href="files/fontAwesome/css/brands.css" rel="stylesheet">
   <link href="files/fontAwesome/css/solid.css" rel="stylesheet">
- 
+
   <title>Travis Jackson</title>
-
-
 </head>
 
-<body id="app">
+<body >
+  <nav class="topnav">
+    <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+      <a href="#container">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </nav>
+
+  <!-- Navigation screen size 600px+ -->
+  <nav class="nav600pxPlus">
+    <img src="images/fullLogo.png" alt="Main Logo: Travis Jackson">
+  </nav>
 
 
 
-    <div id="content">
+  <nav class="fullNav">
+    <a href="#container"><i class="fa fa-fw fa-house"></i> Home</a>
+    <a href="#portfolio"><i class="fa fa-fw fa-project-diagram"></i> Portfolio</a>
+    <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
+    <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+    <div id="linkIcons">
 
-      
+      <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i
+          class="fa-brands fa-fw fa-linkedin fa-lg"></i></a>
+      <a href="https://github.com/travisjackson3?tab=repositories"><i
+          class="fa-brands fa-github-square fa-lg"></i></a>
+    </div>
+  </nav>
+  <div id="content">
+
     <!-- Mobile Navigation Menu -->
-    <nav class="topnav">
-      <img src="images/mobileLogo.png" alt="Main Logo: Travis Jackson"></a>
-      <!-- Navigation links (hidden by default) -->
-      <div id="myLinks">
-        <a href="#container">Home</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-      </div>
-      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </nav>
+    
 
-    <!-- Navigation screen size 600px+ -->
-    <nav class="nav600pxPlus">
-      <img src="images/fullLogo.png" alt="Main Logo: Travis Jackson">
-    </nav>
+    <main>
 
+      <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png" alt="The Earth and Moon">
+      </section>
+      <section class="spacing"></section>
+      <section class="sectionBox" id="about">
 
+        <h1>About</h1>
 
-    <nav class="fullNav">
-      <a href="#container"><i class="fa fa-fw fa-house"></i> Home</a>
-      <a href="#portfolio"><i class="fa fa-fw fa-project-diagram"></i> Portfolio</a>
-      <a href="#about"><i class="fa fa-fw fa-user"></i> About</a>
-      <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-      <div id="linkIcons">
+        <div class="subContent">
+          <p>
+            Former military member with discipline and drive. Transitioning into a career in web development. Academic
+            experience with computer programming from a full stack web development bootcamp and an AAS in Computer
+            Information
+            Systems. A Navy veteran with experience as an electronics technician.</p>
+        </div>
+        <div class="subContent">
+          <h3>Resume</h3>
+          <a href="https://my.indeed.com/p/travisj-lllsra4"><i class="fa-solid fa-file fa-2xl"></i></a>
 
-        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg"></i></a>
-        <a href="https://github.com/travisjackson3?tab=repositories"><i class="fa-brands fa-github-square fa-lg"></i></a>
-      </div>
-    </nav>
+        </div>
+      </section>
+      <section class="spacing"></section>
 
-      <main>
+      <section class="sectionBox" id="portfolio">
 
-        <section id="topImageSection"> <img id="mainImage" src="images/moonEarthMain.png"
-            alt="The Earth and Moon"> </section>
-        <section class="spacing"></section>
-        <section class="sectionBox" id="about">
+        <h1>Portfolio</h1>
 
+        <div class="subPortfolio">
 
-          <h1>About</h1>
+          <div id="imgTitle">
 
-          <div class="subContent">
-            <p>
-
-              Former military member with discipline and drive. Transitioning into a career in web development. Academic
-              experience with computer programming from a full stack web development bootcamp and an AAS in Computer
-              Information
-              Systems. A Navy veteran with experience as an electronics technician.</p>
+            <img class="projectImg" src="images/projenjoy.jpg" alt="Enjoy App preview"></img>
+            <h2>Enjoy: Colorful Fun</h2>
           </div>
-          <div class="subContent">
-            <h3>Resume</h3>
-            <a href="https://my.indeed.com/p/travisj-lllsra4"><i class="fa-solid fa-file fa-2xl"></i></a>
+          <div id="projectSummary">
+            <p>An online coloring book. Built for PDX Code guild capstone.</p>
+          </div>
+          <div class="projectList">
+            <h4>Technogy Used</h4>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-solid fa-d"></i></span>Django</li>
+              <li><span class="fa-li"><i class="fa-brands fa-python"></i></span>Python</li>
+              <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
+              <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
+              <li><span class="fa-li"><i class="fa-brands fa-js"></i></span>JavaScript</li>
+              <li><span class="fa-li"><i class="fa-solid fa-database"></i></span>MySQL</li>
+              <li><span class="fa-li"><i class="fa-brands fa-cpanel"></i></span>Cpanel</li>
 
+            </ul>
+          </div>
+          <div>
+            <h4>Features</h4>
+            <ul class="fa-ul" id="projectFeatures">
+              <li>User functionality</li>
+              <li>Save images to database</li>
+              <li>Login</li>
+              <li>Editable images</li>
+              <li>Download</li>
+
+            </ul>
 
           </div>
-        </section>
-        <section class="spacing"></section>
-
-        <section class="sectionBox" id="portfolio">
-
-          <h1>Portfolio</h1>
-
-
-          <div class="subPortfolio">
-
-            <div id="imgTitle">
-              
-              <img class="projectImg" src="images/projenjoy.jpg"  alt="Enjoy App preview"></img>
-              <h2>Enjoy: Colorful Fun</h2>
-            </div>
-            <div id="projectSummary">
-            <p>An online coloring book. Built for PDX Code guild capstone.</p></div>
-            <div class="projectList">
-              <h4>Technogy Used</h4>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-d"></i></span>Django</li>
-                <li><span class="fa-li"><i class="fa-brands fa-python"></i></span>Python</li>
-                <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
-                <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
-                <li><span class="fa-li"><i class="fa-brands fa-js"></i></span>JavaScript</li>
-                <li><span class="fa-li"><i class="fa-solid fa-database"></i></span>MySQL</li>
-                <li><span class="fa-li"><i class="fa-brands fa-cpanel"></i></span>Cpanel</li>
-
-              </ul>
-            </div>
-            <div>
-              <h4>Features</h4>
-              <ul class="fa-ul" id="projectFeatures">
-                <li>User functionality</li>
-                <li>Save images to database</li>
-                <li>Login</li>
-                <li>Editable images</li>
-                <li>Download</li>
-
-              </ul>
-
-            </div>
-            <div id="projectBtnDiv">
+          <div id="projectBtnDiv">
             <button class="projectBtn" href="https://travishjackson.com/enjoy">Live</button>
-            <button class="projectBtn"  href="https://github.com/travisjackson3/capstone.git">Code</button>
-            </div>
+            <button class="projectBtn" href="https://github.com/travisjackson3/capstone.git">Code</button>
+          </div>
 
+        </div>
+
+        <div class="subPortfolio">
+
+          <div id="imgTitle">
+
+            <img class="projectImg" src="images/wordpress2.jpg" alt="Enjoy App preview"></img>
+            <h2>S. Day Photography</h2>
+          </div>
+          <div id="projectSummary">
+            <p>Small business website for a photographer. Designed to client's specifications</p>
+          </div>
+          <div class="projectList">
+            <h4>Technogy Used</h4>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fa-brands fa-wordpress"></i></i></span>Wordpress</li>
+              <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
+              <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
+
+            </ul>
+          </div>
+          <div>
+            <h4>Features</h4>
+            <ul class="fa-ul" id="projectFeatures">
+              <li>Portfolio Galleries</li>
+              <li>Package Prices</li>
+              <li>Contact Form</li>
+            </ul>
+
+          </div>
+          <div id="projectBtnDiv">
+            <button class="projectBtn" href="https://sdayphotos.travishjackson.com/">Live</button>
 
           </div>
 
-   <div class="subPortfolio">
+      </section>
 
-    <div id="imgTitle">
-      
-      <img class="projectImg" src="images/wordpress2.jpg"  alt="Enjoy App preview"></img>
-      <h2>S. Day Photography</h2>
-    </div>
-    <div id="projectSummary">
-      <p>Small business website for a photographer. Designed to client's specifications</p></div>
-    <div class="projectList">
-      <h4>Technogy Used</h4>
-      <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fa-brands fa-wordpress"></i></i></span>Wordpress</li>
-        <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML</li>
-        <li><span class="fa-li"><i class="fa-brands fa-css3"></i></span>CSS</li>
+      <section class="spacing"></section>
 
-      </ul>
-    </div>
-    <div>
-      <h4>Features</h4>
-      <ul class="fa-ul" id="projectFeatures">
-        <li>Portfolio Galleries</li>
-        <li>Package Prices</li>
-        <li>Contact Form</li>
-      </ul>
+      <section class="sectionBox" id="contact">
 
-    </div>
-    <div id="projectBtnDiv">
-      <button class="projectBtn" href="https://sdayphotos.travishjackson.com/">Live</button>
-  
-    </div>
+        <h1>Contact</h1>
+        <div class="subContent">
 
-        </section>
+          <a href="mailto: @travisjackson3@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+          <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><a
+              href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i
+                class="fa-brands fa-fw fa-linkedin fa-lg fa-2xl"></i></a>
 
-        <section class="spacing"></section>
+        </div>
+      </section>
 
-
-        <section class="sectionBox" id="contact">
-
-          <h1>Contact</h1>
-          <div class="subContent">
-
-            <a href="mailto: @travisjackson3@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i></a>
-            <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-lg fa-2xl"></i></a>
-
-          </div>
-        </section>
-
-        <section class="spacing"></section>
-
-      </main>
- 
+      <section class="spacing"></section>
+    </main>
 
     <footer>
-
 
       <p> &copy Travis Jackson</p>
       <div id="linkIcons">
 
         <a href="https://github.com/travisjackson3?tab=repositories"><i class="fab fa-github-square fa-xl"></i></a>
-        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i class="fa-brands fa-fw fa-linkedin fa-xl"></i></a>
+        <a href="https://www.linkedin.com/in/travis-jackson-a14742b7/"><i
+            class="fa-brands fa-fw fa-linkedin fa-xl"></i></a>
 
       </div>
     </footer>
 
-
   </div>
-
-
-  <script src="https://unpkg.com/vue@next"></script>
-
-  <script src="js/script.js"></script>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
 </body>
 
 
