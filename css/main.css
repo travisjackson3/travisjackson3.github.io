@@ -97,7 +97,7 @@ a {
 
 }
 
-.projectBtn {
+.projectBtn:link, .projectBtn:visited {
     background-color: white;
 
     color: black;
@@ -423,7 +423,7 @@ Small devices (portrait tablets and large phones, 600px and up)
 
     #portrait {
 
-        height: auto;        
+        height: auto;
         padding-left: 5px;
 
     }
@@ -491,10 +491,6 @@ Small devices (portrait tablets and large phones, 600px and up)
     }
 
 
-
-
-
-
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -502,7 +498,7 @@ Small devices (portrait tablets and large phones, 600px and up)
     body {
 
         font-size: 1.3em;
-        
+
     }
 
     .fullNav a {
