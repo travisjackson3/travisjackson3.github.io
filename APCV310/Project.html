@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Project - Assign 4</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="Project.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+ 
+         <header>University of Arizona Homework          
+         </header>
+ 
+         <main>        
+           
+             <nav>                
+                 <a href=".\index.html">Home</a>
+                 <a href=".\Project.html">Project</a>
+                 <a href="https://www.arizona.edu/">UoA</a>           
+             </nav>
+ 
+             <h1>Online Coloring Book Webpage</h1>
+             <p><i>A Final Project for a Web Development Boot Camp</i></p>
+             <h2>Introduction</h2>             
+                 <p>For the final project of my web development boot camp, I created an interactive online coloring book using Django (Python) for the backend and JavaScript for the frontend. The project allows users to select different images, choose colors, and fill in sections with a click.</p>
+                <h2>Tech Stack Used</h2>
+                 <ul>
+                     <li>Backend: Django (Python)</li>
+                     <li>Frontend: HTML, CSS, JavaScript</li>
+                     <li>Database: SQLite</li>
+                 </ul>
+                 <h2>Features of the Web Application</h2>
+                 <h3>1. User Authentication & Profiles</h3>
+                 <ul>
+                    <li>Users can <strong>sign up, log in, and save</strong> their coloring progress.</li>
+                    <li>Guest users can still color but cannot save their work.</li>
+                </ul>
+        
+                <h3>2. Image Selection</h3>
+                <ul>
+                    <li>A gallery of black-and-white line art images is available.</li>
+                    <li>Users can upload their own images (optional feature).</li>
+                </ul>
+        
+                <h3>3. Interactive Coloring System</h3>
+                <ul>
+                    <li>Clicking on different sections fills them with the selected color.</li>
+                    <li>Uses JavaScript event listeners.</li>
+                    <li>A color picker tool allows users to choose any color they want.</li>
+                </ul>
+        
+                <h3>4. Saving & Loading Artwork</h3>
+                <ul>
+                    <li>Users can save their colored images to the database.</li>
+                    <li>On login, users can reload previous artwork and continue coloring.</li>
+                </ul>
+
+                <h2>Technical Implementation</h2>
+                    <h3>Backend (Django)</h3>
+                    <ul>
+                        <li>Used Django to handle <strong>user authentication, image storage, and database interactions</strong>.</li>
+                        <li>Django views and templates were used to serve HTML content.</li>
+                        <li>Django REST Framework (DRF) was implemented to allow API interactions for saving and retrieving user artwork.</li>
+                    </ul>
+        
+                <h3>Frontend JavaScript</h3>
+                <ul>                  
+                    <li>JavaScript functions detected <strong>clicks on image regions</strong> and filled them with selected colors.</li>
+                    <li>CSS and animations enhanced the user experience.</li>
+                </ul>
+        
+                <h3>Database Design</h3>
+                <ul>
+                    <li><strong>User Table:</strong> Stores user details.</li>
+                    <li><strong>Artwork Table:</strong> Saves colored images with user associations.</li>
+                </ul>
+        
+                <h2>Challenges & Solutions</h2>
+                <ul>
+                    <li><strong>Challenge:</strong> Detecting individual sections in an image for coloring.</li>
+                    <ul>
+                        <li><strong>Solution:</strong> Used pixel detection and flood fill techniques in JavaScript.</li>
+                    </ul>
+                    <li><strong>Challenge:</strong> Ensuring the app works smoothly across different devices.</li>
+                    <ul>
+                        <li><strong>Solution:</strong> Used responsive CSS and optimized JavaScript performance.</li>
+                    </ul>
+                </ul>
+                <h2>Testing saving images:</h2>
+        <img src="project.png" width="500" height="300" alt="Examples of the saved images from the webpage">
+
+
+         </main>
+ 
+     <footer>
+        <p><a href=".\index.html">Home</a>
+         &copy; Travis Jackson APCV 310</p> 
+ 
+     </footer>
+ 
+     </div>
+</body>
+</html>
